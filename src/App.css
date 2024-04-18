@@ -102,14 +102,14 @@ li p span {
 ul {
   margin: 0;
 }
-/* Default styles */
-
-/* Add your default styles here */
-
 /* Media query for mobile */
 @media (max-width: 768px) {
   .App {
     padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .header h1 {
+    font-size: 20px; /* Reduce font size for h1 on smaller screens */
   }
 
   .input-container {
@@ -119,10 +119,12 @@ ul {
   .input-container input {
     margin-right: 0; /* Remove margin for input */
     margin-bottom: 10px; /* Add margin bottom for spacing */
+    width: 100%; /* Make input full width */
   }
 
   .input-container button {
     margin-top: 10px; /* Add margin top for spacing */
+    width: 100%; /* Make button full width */
   }
 
   img {
