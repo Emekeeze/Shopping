@@ -77,7 +77,7 @@ const [isCompleted, setIsCompleted] = useState(false);
                 onChange={handleChange}
                 value={inputValue}
               />
-              <button onClick={handleAddGroceryItem}>Add</button>
+              <button className='button-add' onClick={handleAddGroceryItem}>Add</button>
             </div>
           </div>
         </div>
